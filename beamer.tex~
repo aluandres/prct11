@@ -1,0 +1,101 @@
+\documentclass{beamer}
+\usercolortheme[RGB={122,59,122}]{structure}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+
+\usetheme{Madrid}
+
+\title[Presentación con Beamer]{Fórmulas Matemáticas}
+\author[Técnicas Experimentales]{María Pérez Canino}
+\date[15-03-2013]{15 de marzo de 2013}
+
+\begin{document}
+
+\begin{frame}
+
+  \includegraphics[width=0.15\textwidth]{img/ullesc.eps}
+  \hspace*{7.5cm}
+  \includegraphics[width=0.16\textwidth]{img/fmatesc.eps}
+  \titlepage
+
+  \begin{scriptsize}
+    \begin{center}
+     Facultad de Matemáticas \\
+     Universidad de La Laguna
+    \end{center}
+  \end{scriptsize}
+
+\end{frame} 
+
+
+\begin{frame}
+  \frametitle{Índice}  
+  \tableofcontents[pausesections]
+\end{frame}  
+
+
+\section{Primera Sección}
+
+\begin{frame}
+
+\frametitle{Primera Sección}
+
+En esta presentación veremos diferentes fórmulas matemáticas.
+
+\end{frame}
+
+\section{Segunda Sección}
+
+\begin{frame}
+
+\frametitle{Segunda Sección}
+
+\begin{block}{Ejemplo}
+  \begin{itemize}
+  \item
+  $x^2+y^2=0$
+  \pause
+
+  \item
+  $S_n=a_1+\cdots + a_n = \sum_{i=1}^n a_1$
+  \pause
+
+  \item
+   $x^{2+x}-5x^2+5=0$
+  \pause
+
+  \item
+  $\sqrt{b^2-4ac}=2$
+  \pause
+
+  \item
+   $\frac{x^3+6-x}{2-x^2}$
+  \pause
+
+  \end{itemize}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Bibliografía}
+
+  \begin{thebibliography}{10}
+
+    \beamertemplatebookbibitems
+    \bibitem[Práctica 5]{practica}  
+    Práctica 5, técnicas experimentales. 
+    (2013)
+    {\small $http://campusvirtual.ull.es/1213m2/pluginfile.php/226042/mod_resource/content/1/prct05.pdf$} 
+
+    \beamertemplatebookbibitems
+    \bibitem[Comandos LaTeX - Página - Fórmulas - Bibliografía]{comandos}  
+    Comandos LaTeX - Página - Fórmulas - Bibliografía 
+    (2013) 
+    {\small $http://campusvirtual.ull.es/1213m2/pluginfile.php/224421/mod_resource/content/3/TeoriaLaTeX.2.pdf$}
+
+
+  \end{thebibliography}
+\end{frame}
+
+\end{document}
